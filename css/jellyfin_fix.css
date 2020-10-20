@@ -12,6 +12,10 @@
       margin-top: -4.3em;
   }
 
-.mainAnimatedPage {
-  top: 35px!important;
+  div#indexPage {
+    padding-top: 1em!important;
+    mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 100px, rgb(0, 0, 0) 130px);
+    -webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 1) 100px);
+    overflow: scroll;
+    top: 35px!important;
 }
