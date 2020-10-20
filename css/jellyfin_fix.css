@@ -19,6 +19,13 @@
     overflow: scroll;
     top: 35px!important;
   }
+
+
+  .tmla-mask.backdrop,
+  .tmla-mask.hide,
+  .mainDrawer.transition.touch-menu-la.drawer-open {
+    top: 55px!important;
+  }
 }
 
 @media (max-width: 75em) {
