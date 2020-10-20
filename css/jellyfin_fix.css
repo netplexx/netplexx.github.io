@@ -21,8 +21,7 @@
   }
 
 
-  .tmla-mask.backdrop,
-  .tmla-mask.hide,
+  .tmla-mask,
   .mainDrawer.transition.touch-menu-la.drawer-open {
     top: 55px!important;
   }
