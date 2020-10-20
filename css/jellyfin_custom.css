@@ -2,8 +2,10 @@
   background-color: rgba(0,0,0,0.6);
 }
 
+.headerButton.headerButtonRight.headerUserButtonRound,
 .pageTitleWithDefaultLogo {
   background-image: none;
+  display: none;
 }
 
 @media (max-width: 75em) { 
