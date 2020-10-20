@@ -11,3 +11,7 @@
       position: relative;
       margin-top: -4.3em;
   }
+
+.mainAnimatedPage {
+  top: 35px!important;
+}
