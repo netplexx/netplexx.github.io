@@ -13,9 +13,20 @@
   }
 
   div#indexPage {
+    padding-top: 4em!important;
+    mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 100px, rgb(0, 0, 0) 130px);
+    -webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 1) 100px);
+    overflow: scroll;
+    top: 35px!important;
+  }
+}
+
+@media (max-width: 75em) {
+  div#indexPage {
     padding-top: 1em!important;
     mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 100px, rgb(0, 0, 0) 130px);
     -webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 1) 100px);
     overflow: scroll;
     top: 35px!important;
+  }
 }
